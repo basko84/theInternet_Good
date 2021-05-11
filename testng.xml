@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/OLGA/IdeaProjects/theInternet_Good">
+        <classes>
+            <class name="ShiftingContentMenuElements.ShiftingContentMenuElementsTests">
+                <methods>
+                    <include name="testShiftingContentMenuElements"/>
+                </methods>
+            </class>
+            <class name="alerts.AlertsTest">
+                <methods>
+                    <include name="testAlert"/>
+                    <include name="testConfirm"/>
+                    <include name="testPrompt"/>
+                </methods>
+            </class>
+            <class name="alerts.FileUploadTests">
+                <methods>
+                    <include name="testFileUpload"/>
+                </methods>
+            </class>
+            <class name="dropDown.DropDownTests">
+                <methods>
+                    <include name="testSelectOption"/>
+                </methods>
+            </class>
+            <class name="forgotPassword.ForgotPasswordTest">
+                <methods>
+                    <include name="testRetrievePassword"/>
+                </methods>
+            </class>
+            <class name="frames.FrameTests">
+                <methods>
+                    <include name="testEditor"/>
+                </methods>
+            </class>
+            <class name="hover.HoverTest">
+                <methods>
+                    <include name="testHoverUser1"/>
+                </methods>
+            </class>
+            <class name="javaScript.JavaScriptTests">
+                <methods>
+                    <include name="testJS"/>
+                    <include name="testScrollToParagraph"/>
+                </methods>
+            </class>
+            <class name="keys.KeysTests">
+                <methods>
+                    <include name="testBackSpace"/>
+                    <include name="testShortCuts"/>
+                </methods>
+            </class>
+            <class name="login.LoginTests">
+                <methods>
+                    <include name="testSuccesfulLogin"/>
+                </methods>
+            </class>
+            <class name="models.ModalTests">
+                <methods>
+                    <include name="testModal"/>
+                </methods>
+            </class>
+            <class name="navigation.NavigationTests">
+                <methods>
+                    <include name="testNavigation"/>
+                    <include name="testSwitchToTab"/>
+                </methods>
+            </class>
+            <class name="wait.WaitTests">
+                <methods>
+                    <include name="testWaits"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
